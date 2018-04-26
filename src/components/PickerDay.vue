@@ -20,7 +20,7 @@
           v-for="day in days"
           :key="day.timestamp"
           :class="dayClasses(day)"
-          @click="selectDate(day)">{{ day.date }}</span>
+          @click="selectDate(day)"><span>{{ day.date }}</span></span>
     </div>
   </div>
 </template>
